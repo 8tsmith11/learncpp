@@ -1,6 +1,6 @@
 #include <iostream>
 
-int readNumber()*
+int readNumber()
 {
     std::cout << "Please enter a number: ";
     int x{};

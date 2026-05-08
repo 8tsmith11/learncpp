@@ -32,7 +32,7 @@ int getGuess(int guess_counter)
 void hiLo(int min, int max, int guesses) 
 {
     std::cout << "Let's play a game. I'm thinking of a number between " << min;
-    std::cout << " and " << max << " You have " << guesses << " tries to guess what it is.\n";
+    std::cout << " and " << max << ". You have " << guesses << " tries to guess what it is.\n";
 
     // Secret random value in [min, max]
     int value{ Random::get(min, max) };
